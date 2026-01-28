@@ -4,7 +4,6 @@ import os
 import requests
 from pathlib import Path
 
-# 使用代理加速境外网络
 PROXIES = {"http": "http://127.0.0.1:18081", "https": "http://127.0.0.1:18081"}
 TIMEOUT = 60
 
