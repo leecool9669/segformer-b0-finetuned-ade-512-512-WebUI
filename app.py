@@ -14,7 +14,7 @@ def run_segmentation(image):
     msg += "模型基于 SegFormer-B0，在 ADE20K 上微调，输入分辨率 512×512。"
     return image, msg
 
-with gr.Blocks(title="SegFormer B0 ADE-512-512 WebUI", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="SegFormer B0 ADE-512-512 WebUI") as demo:
     gr.Markdown("""
     # SegFormer B0 ADE-512-512 语义分割 WebUI
 
